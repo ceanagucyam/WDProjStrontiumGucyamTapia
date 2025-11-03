@@ -1,8 +1,9 @@
 # WDProjStrontiumGucyamTapia
 ## Title: TokkiNet
 ******
-#### Logo:
-#### ![Logo] (tba)
+### Logo:
+### ![Logo] (tba)
+******
 ### Description
 ### TokkiNet is a website dedicated to the K-Pop group, NewJeans. It serves as an archive for all their content, including information about the members' profiles, their  merchandise, their discography, and their variety shows. The site aims to helps fans, both old and new, access the history of the group to learn more about NewJeans.
 ******
@@ -15,4 +16,4 @@
 ### (P5) Shows: This page is a compilation of their variety shows, vlogs, and livestreams.
 ### (P6) Sources: This page contains the references and sources used for the project.
 ******
-#### Wireframe:
+### Wireframe: (tba) 
