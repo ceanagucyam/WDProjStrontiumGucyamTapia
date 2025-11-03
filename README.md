@@ -5,6 +5,7 @@
 #### ![Logo] (tba)
 ### Description
 ### TokkiNet is a website dedicated to the K-Pop group, NewJeans. It serves as an archive for all their content, including information about the members' profiles, their  merchandise, their discography, and their variety shows. The site aims to helps fans, both old and new, access the history of the group to learn more about NewJeans.
+******
 ### Outline:
 ### Home Page: This page welcomes the users and has quick navigation to the other pages of the website.
 ### (P1) About Us: This page briefly introduces the creators of the website and includes their explanations for creating the website itself.
