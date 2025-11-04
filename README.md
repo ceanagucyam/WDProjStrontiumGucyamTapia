@@ -10,7 +10,7 @@
 ### Outline of Content (Webpages):
 ### Home Page: This page welcomes the users and has quick navigation to the other pages of the website.
 ### (P1) About Us: This page briefly introduces the creators of the website and includes their explanations for creating the website itself.
-### (P2) Who's Who: This page includes the members' individual profiles, with information such as their positions and fun facts. It will also include photos of the members and notable activities of each member.
+### (P2) Who's Who: This page includes the members' individual profiles, with information such as their positions and fun facts. It will also include photos of the members and notable activities of each member. JavaScript will be used here to make the member profiles interactive, showcasing their information as a pop-up card.
 ### (P3) Merch: This page contains official NewJeans merchandise such as their albums and lightsticks.
 ### (P4) Songs: This page contains their complete discography of albums, EPs, and music videos. It will also include links to streaming services such as YouTube, Spotify, and Apple Music.
 ### (P5) Shows: This page is a compilation of their variety shows, vlogs, and livestreams.
