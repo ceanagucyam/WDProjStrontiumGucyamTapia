@@ -1,4 +1,4 @@
-# WDProjStrontiumGucyamTapia
+# WDProj_StrontiumGucyamTapia
 ## Title: TokkiNet
 ******
 ### Logo:
