@@ -122,3 +122,25 @@ body {
 .nav-buttons a:hover {
     color: white;
 }
+
+.merch-photo {
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.merch-link {
+    display: block;
+    margin-top: 10px;
+    font-size: 26px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.merch-link:hover {
+    text-decoration: underline;
+}
