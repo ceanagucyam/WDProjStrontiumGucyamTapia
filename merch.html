@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TokkiNet">
+    <meta name="author" content="Ceana Gucyam, Reeva Tapia">
+    <link rel="icon" type="image/png" href="public/assets/favicon.png">
+    <title>TokkiNet.kr — Merch</title>
+
+    <link rel="stylesheet" href="merch.css">
+</head>
+
+<body>
+<div class="main-container">
+
+    <div class="header-row">
+        <img class="logo" src="public/assets/favicon.png" alt="Website Logo">
+        <div class="site-title">TokkiNet.kr</div>
+    </div>
+
+    <div class="nav-buttons">
+        <a href="home.html">Home</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="whoswho.html">Who’s Who</a>
+        <a href="merch.html">Merch</a>
+        <a href="songs.html">Songs</a>
+        <a href="shows.html">Shows</a>
+        <a href="sources.html">Sources</a>
+    </div>
+
+
+
+    <div class="content-box">
+        <h3> Welcome to NJz Merch Collection ☆ </h3>
+        <p> Explore the ... bla bla bla bla bla description. Click the photos to know more about each item, and when ready to check out, click the title of the item to buy it!</p>
+        <div class="grid-3">
+            <div class="grid-item">
+                <img src="public/assets/lightstick.png" class="merch-photo" onclick="openModal('public/assets/lightstick.png', '3 sentences description')">
+                <a href="https://shop.weverse.io/en/shop/USD/artists/82/sales/14249" class="merch-link">NJ Lightstick</a>
+            </div>
+            <div class="grid-item">
+                <img src="public/assets/talkingplush.png" class="merch-photo" onclick="openModal('public/assets/talkingplush.png','3 sentences description')">
+                <a href="https://shop.weverse.io/en/shop/USD/artists/82/sales/22641" class="merch-link">bunini TALKING PLUSH</a>
+            </div>
+            <div class="grid-item">
+                <img src="public/assets/photocardset.png" class="merch-photo" onclick="openModal('public/assets/photocardset.png', '3 sentences description')">
+                <a href="https://shop.weverse.io/en/shop/USD/artists/82/sales/17335" class="merch-link">NJ Get Up PHOTOCARD SET</a>
+            </div>
+        </div>
+    </div>
+
+<div id="imageModal" class="modal" onclick="closeModal()">
+  <div class="modal-content" onclick="event.stopPropagation()">
+    <span class="close" onclick="closeModal()">×</span>
+    <img id="modalImg">
+    <div class="modal-desc">
+      <p id="modalText"></p>
+    </div>
+  </div>
+</div>
+
+<script>
+function openModal(imgSrc, text) {
+    document.getElementById("imageModal").style.display = "flex";
+    document.getElementById("modalImg").src = imgSrc;
+    document.getElementById("modalText").innerText = text;
+}
+
+function closeModal() {
+    document.getElementById("imageModal").style.display = "none";
+}
+</script>
+
+    <div class="footer-links">
+        <ul>
+            <li><a href="https://www.youtube.com/@NewJeans_official">YouTube</a></li>
+            <li><a href="https://www.instagram.com/newjeans_official/">Instagram</a></li>
+            <li><a href="https://x.com/NewJeans_ADOR/">X</a></li>
+            <li><a href="https://www.tiktok.com/@newjeans_official">TikTok</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-center">
+        © 2025 TokkiNet. All Rights Reserved. <br>
+        Authors: Ceana Gucyam, Reeva Tapia
+    </div>
+
+</div>
+</body>
+</html>

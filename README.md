@@ -15,6 +15,11 @@
 ### (P4) Songs: This page contains their complete discography of albums, EPs, and music videos. It will also include links to streaming services such as YouTube, Spotify, and Apple Music.
 ### (P5) Shows: This page is a compilation of their variety shows, vlogs, and livestreams.
 ### (P6) Sources: This page contains the references and sources used for the project.
+### Description of JavaScript Incorporation: JavaScript will be used to make the website more interactive with the users, which will specifically be used in the who's who, wherein users can interact on which member of the group they most likely are by answering a personality test quiz. This quiz is entitled as "Which NewJeans member are you?" 
+
+### When users answer the quiz, JavaScript will track the answers, calculate the scores, and show the results.
+
+### JavaScript will also be used for animations and transitions within the image gallery.
 ******
 ### Wireframe:
 ### Home Page:
