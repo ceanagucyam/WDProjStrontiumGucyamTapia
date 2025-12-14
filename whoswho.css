@@ -6,7 +6,7 @@
 
 body {
     font-family: "Monaco", serif;
-    background: linear-gradient(#97c7f0, #e8f2fb);
+    background: linear-gradient(#0060be, #e8f2fb);
     background-position: fixed;
     padding: 20px;
 }
@@ -150,6 +150,38 @@ body {
     text-align: center;
     font-size: 40px;
     
+}
+
+.content-box p {
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.footer-links {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer-center {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
 }
 
 .content-box p {
