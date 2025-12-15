@@ -6,7 +6,7 @@
 
 body {
     font-family: "Monaco", serif;
-    background: linear-gradient(#97c7f0, #e8f2fb);
+    background: linear-gradient(#0060be, #e8f2fb);
     background-position: fixed;
     padding: 20px;
 }
@@ -142,18 +142,64 @@ body {
     background: white;
 }
 
+.content-box {
+    border: 7px solid black;
+    background: url("public/assets/pink-bg.jpg");
+    background-size: cover;
+    padding: 30px;
+    border-radius: 12px;
+    margin: 20px auto;
+}
+
+
 .content-box::-webkit-scrollbar {
     display: none;
 }
 
 .content-box h3 {
     text-align: center;
+    color:#3c5dac;
     font-size: 40px;
     
 }
 
 .content-box p {
     text-align: center;
+    color:#b7427e;
     font-size: 20px;
     
+}
+
+.newjeans-gif {
+    display: block;         
+    margin: 20px auto;       
+    border: 5px solid rgb(246, 231, 172); 
+    border-radius: 10px;    
+    max-width: 80%;          
+}
+
+.footer-links {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer-center {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
 }
