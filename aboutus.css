@@ -14,9 +14,6 @@ body {
     padding: 20px;
 }
 
-body {
-    cursor: url("public/assets/cursor.png"), pointer;
-}
 
 .main-container {
     background: white;
@@ -90,35 +87,6 @@ body {
     margin-bottom: 10px;
 }
 
-.footer-links {
-    margin-top: 25px;
-    font-size: 22px;
-    display: flex;
-    gap: 30px;
-    align-items: center;
-    color: black
-}
-
-
-.footer-links span {
-    margin-right: 30px;
-}
-
-.footer-links ul {
-    display: flex;
-    gap: 30px;
-    list-style: none;
-}
-
-.footer-links li a {
-    text-decoration: none;
-    color: black;
-    font-size: 22px;
-}
-
-.footer-links a:hover {
-    color: #0060be;
-}
 
 .nav-buttons a {
     color: black;
@@ -151,16 +119,19 @@ body {
 
 .content-box h3 {
     text-align: center;
+    color: #8632a5;
     font-size: 40px;
     
 }
 
 .content-box p {
     text-align: center;
+    color: #000000;
     font-size: 20px;
     
 }
 
+/* ABOUT PROFILES */
 .about-profiles {
     display: flex;             
     justify-content: space-around;
@@ -184,9 +155,9 @@ body {
 }
 
 .about-desc {
-    background: #e6e6e6;
+    background: linear-gradient(#dfa7f4,#ffffff);
     min-height: 120px;
-    border: 3px solid rgb(0, 0, 0);
+    border: 3px solid rgb(166, 85, 201);
     border-radius: 18px;
     padding: 10px;
     font-size: 16px;
@@ -206,8 +177,9 @@ body {
     margin: 40px auto 0;
     width: 70%;
     text-align: center;
-    background: #e6e6e6;
-    border: 4px solid black;
+    background: linear-gradient(#dfa7f4,#ffffff);
+    border: 4px solid rgb(166, 85, 201);
+    color:#000;
     border-radius: 20px;
     padding: 15px;
 }
@@ -223,15 +195,21 @@ body {
 }
 
 /* --FOOTER STYLES-- */
+
 .footer-links {
-    text-align: center;
+    margin-top: 25px;
     margin-bottom: 30px;
+    font-size: 22px;
+    display: flex;
+    gap: 30px;
+    text-align: center ;
+    align-items: center;
+    color: black
 }
 
-.footer-center {
-    text-align: center;
-    font-size: 0.9rem;
-    color: #888;
+
+.footer-links span {
+    margin-right: 30px;
 }
 
 .footer-links ul {
@@ -243,17 +221,38 @@ body {
     gap: 20px;
 }
 
-.footer-links a {
+.footer-links li a {
     text-decoration: none;
-    color: #000;
+    color: black;
+    font-size: 22px;
     font-weight: bold;
 }
+
+.footer-links a:hover {
+    color: #0060be;
+}
+
+.footer-center {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.apa-citation {
+    text-align: right;
+    font-size: 12px;
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+
+/* --ANIMATION-- */
 
 .content-box {
     animation: contentFade 0.9s ease;
 }
-
-/* --ANIMATION-- */
 
 @keyframes contentFade {
     from {

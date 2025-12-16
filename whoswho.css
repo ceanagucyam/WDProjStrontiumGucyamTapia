@@ -93,35 +93,6 @@ body {
     margin-bottom: 10px;
 }
 
-.footer-links {
-    margin-top: 25px;
-    font-size: 22px;
-    display: flex;
-    gap: 30px;
-    align-items: center;
-    color: black
-}
-
-
-.footer-links span {
-    margin-right: 30px;
-}
-
-.footer-links ul {
-    display: flex;
-    gap: 30px;
-    list-style: none;
-}
-
-.footer-links li a {
-    text-decoration: none;
-    color: black;
-    font-size: 22px;
-}
-
-.footer-links a:hover {
-    color: #0060be;
-}
 
 .nav-buttons a {
     color: black;
@@ -222,14 +193,19 @@ body {
 }
 
 .footer-links {
-    text-align: center;
+    margin-top: 25px;
     margin-bottom: 30px;
+    font-size: 22px;
+    display: flex;
+    gap: 30px;
+    text-align: center ;
+    align-items: center;
+    color: black
 }
 
-.footer-center {
-    text-align: center;
-    font-size: 0.9rem;
-    color: #888;
+
+.footer-links span {
+    margin-right: 30px;
 }
 
 .footer-links ul {
@@ -241,12 +217,24 @@ body {
     gap: 20px;
 }
 
-.footer-links a {
+.footer-links li a {
     text-decoration: none;
-    color: #000;
+    color: black;
+    font-size: 22px;
     font-weight: bold;
 }
 
+.footer-links a:hover {
+    color: #0060be;
+}
+
+.footer-center {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+/* ANIMATIONS */
 .content-box {
     animation: contentFade 0.9s ease;
 }

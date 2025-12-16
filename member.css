@@ -1,18 +1,16 @@
+/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* MEMBER PAGE STYLES */
 body {
     font-family: "Monaco", serif;
     background: linear-gradient(#0060be, #e8f2fb);
     background-position: fixed;
     padding: 20px;
-}
-
-body {
-    cursor: url("public/assets/cursor.png"), pointer;
 }
 
 .main-container {
@@ -58,15 +56,6 @@ body {
   color: white;
 }
 
-.content-box {
-    border: 7px solid black;
-    background: white;
-    width: 100%;
-    height: 420px;
-    margin: 20px auto;
-    padding: 30px;
-}
-
 .grid-3 {
     display: flex;
     justify-content: space-around;
@@ -87,45 +76,12 @@ body {
     margin-bottom: 10px;
 }
 
-.footer-links {
-    margin-top: 25px;
-    font-size: 22px;
-    display: flex;
-    gap: 30px;
-    align-items: center;
-    color: black
-}
-
-
-.footer-links span {
-    margin-right: 30px;
-}
-
-.footer-links ul {
-    display: flex;
-    gap: 30px;
-    list-style: none;
-}
-
-.footer-links li a {
-    text-decoration: none;
-    color: black;
-    font-size: 22px;
-}
-
-.footer-links a:hover {
-    color: #0060be;
-}
 
 .nav-buttons a {
     color: black;
     text-decoration: none;
     font-style: italic;
     font-size: 22px;
-}
-
-.nav-buttons a:hover {
-    color: white;
 }
 
 .content-box {
@@ -141,6 +97,41 @@ body {
     overflow-y: auto;
     background: white;
 }
+
+.content-box h3 {
+    text-align: center;
+    color: #8632a5;
+    font-size: 40px;
+    
+}
+
+.content-box p {
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    
+}
+
+.placeholder-box {
+    width: 200px;
+    height: 150px;
+    background: #e4e4e4;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+
+.nav-buttons a {
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 22px;
+}
+
+.nav-buttons a:hover {
+    color: white;
+}
+
 
 .content-box::-webkit-scrollbar {
     display: none;
@@ -167,32 +158,7 @@ body {
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
-.footer-links {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.footer-center {
-    text-align: center;
-    font-size: 0.9rem;
-    color: #888;
-}
-
-.footer-links ul {
-    list-style: none;
-    padding: 0;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.footer-links a {
-    text-decoration: none;
-    color: #000;
-    font-weight: bold;
-}
-
+/*BIO SECTION*/
 .bio-container {
     width: 100%;
     min-height: 500px;
@@ -247,15 +213,21 @@ body {
     font-weight: bold;
 }
 
+/* FOOTER */
 .footer-links {
-    text-align: center;
+    margin-top: 25px;
     margin-bottom: 30px;
+    font-size: 22px;
+    display: flex;
+    gap: 30px;
+    text-align: center ;
+    align-items: center;
+    color: black
 }
 
-.footer-center {
-    text-align: center;
-    font-size: 0.9rem;
-    color: #888;
+
+.footer-links span {
+    margin-right: 30px;
 }
 
 .footer-links ul {
@@ -267,11 +239,23 @@ body {
     gap: 20px;
 }
 
-.footer-links a {
+.footer-links li a {
     text-decoration: none;
-    color: #000;
+    color: black;
+    font-size: 22px;
     font-weight: bold;
 }
+
+.footer-links a:hover {
+    color: #0060be;
+}
+
+.footer-center {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #888;
+}
+
 
 .content-box {
     animation: contentFade 0.9s ease;

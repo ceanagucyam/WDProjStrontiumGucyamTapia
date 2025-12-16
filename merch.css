@@ -11,10 +11,6 @@ body {
     padding: 20px;
 }
 
-body {
-    cursor: url("public/assets/cursor.png"), pointer;
-}
-
 .main-container {
     background: white;
     width: 92%;
@@ -298,6 +294,7 @@ body {
     font-weight: bold;
 }
 
+/* ANIMATIONS */
 body {
     animation: fadeIn 0.6s ease;
 }
