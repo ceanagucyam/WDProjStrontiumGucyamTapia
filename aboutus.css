@@ -1,8 +1,11 @@
+/* --RESET-- */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* --ABOUT US PAGE STYLES-- */
 
 body {
     font-family: "Monaco", serif;
@@ -219,6 +222,7 @@ body {
     line-height: 1.5;
 }
 
+/* --FOOTER STYLES-- */
 .footer-links {
     text-align: center;
     margin-bottom: 30px;
@@ -243,4 +247,19 @@ body {
     text-decoration: none;
     color: #000;
     font-weight: bold;
+}
+
+.content-box {
+    animation: contentFade 0.9s ease;
+}
+
+/* --ANIMATION-- */
+
+@keyframes contentFade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }

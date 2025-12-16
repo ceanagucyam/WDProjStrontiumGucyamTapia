@@ -297,3 +297,20 @@ body {
     color: #000;
     font-weight: bold;
 }
+
+body {
+    animation: fadeIn 0.6s ease;
+}
+
+.content-box {
+    animation: contentFade 0.9s ease;
+}
+
+@keyframes contentFade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

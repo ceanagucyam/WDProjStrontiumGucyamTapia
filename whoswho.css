@@ -1,3 +1,4 @@
+/* --RESET-- */
 * {
     margin: 0;
     padding: 0;
@@ -11,10 +12,7 @@ body {
     padding: 20px;
 }
 
-body {
-    cursor: url("public/assets/cursor.png"), pointer;
-}
-
+/* --WHOS WHO PAGE STYLES-- */
 .main-container {
     background: white;
     width: 92%;
@@ -72,6 +70,14 @@ body {
     justify-content: space-around;
     align-items: center;
     height: 100%;
+}
+
+.grid-5 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    justify-items: center;
+    margin-top: 30px;
 }
 
 .grid-item {
@@ -183,10 +189,17 @@ body {
 .member a {
     text-decoration: none;
     color: black;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    text-decoration: none;
+    color: black;
 }
+    
 
 .member img {
-    width: 140px;
+    width: 200px;
+    height: auto;
     transition: transform 0.3s ease;
 }
 
@@ -198,7 +211,8 @@ body {
     margin-top: 12px;
     color: #4a92b4;
     font-family: "Monaco", serif;
-    font-size: 22px;
+    font-style: italic;
+    font-size: 30px;
     font-weight: bold;
     cursor: pointer;
 }
@@ -231,4 +245,17 @@ body {
     text-decoration: none;
     color: #000;
     font-weight: bold;
+}
+
+.content-box {
+    animation: contentFade 0.9s ease;
+}
+
+@keyframes contentFade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
