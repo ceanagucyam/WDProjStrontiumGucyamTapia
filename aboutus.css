@@ -159,8 +159,8 @@ body {
 }
 
 .about-profiles {
-    display: flex;                 /* THIS makes them side-by-side */
-    justify-content: space-around; /* spacing between them */
+    display: flex;             
+    justify-content: space-around;
     align-items: flex-start;
     gap: 60px;
     margin-top: 30px;
