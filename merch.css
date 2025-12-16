@@ -9,10 +9,6 @@ body {
     background: linear-gradient(#0060be, #e8f2fb);
     background-position: fixed;
     padding: 20px;
-<<<<<<< HEAD
-=======
-    cursor: url("assets/cursor.png"), pointer;
->>>>>>> f4b80160a3723dc2a06593c381ae7a6f1de68145
 }
 
 .main-container {
@@ -187,20 +183,21 @@ body {
     cursor: pointer;
 }
 
-@keyframes zoomIn {
-    from {
-        transform: scale(0.5);
-        opacity: 0;
-    }
-    to {
-        transform: scale(1);
-        opacity: 1;
-    }
+/* FOOTER */
+.footer-links {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-size: 22px;
+    display: flex;
+    gap: 30px;
+    text-align: center ;
+    align-items: center;
+    color: black
 }
 
-.footer-links {
-    text-align: center;
-    margin-bottom: 30px;
+
+.footer-links span {
+    margin-right: 30px;
 }
 
 .footer-links ul {
@@ -212,23 +209,34 @@ body {
     gap: 20px;
 }
 
-.footer-links a {
+.footer-links li a {
     text-decoration: none;
-    color: #000;
+    color: black;
+    font-size: 22px;
     font-weight: bold;
 }
 
-<<<<<<< HEAD
-/* ANIMATIONS */
-body {
-    animation: fadeIn 0.6s ease;
-=======
 .footer-links a:hover {
     color: #0060be;
->>>>>>> f4b80160a3723dc2a06593c381ae7a6f1de68145
 }
 
 .footer-center {
     text-align: center;
-    font-size: 0.9;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+
+/* ANIMATIONS */
+.content-box {
+    animation: contentFade 0.9s ease;
+}
+
+@keyframes contentFade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
