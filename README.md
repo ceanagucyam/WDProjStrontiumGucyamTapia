@@ -38,3 +38,30 @@
 ### <img width="1920" height="1080" alt="9" src="https://github.com/user-attachments/assets/aad1fb9d-d372-4dac-b6c2-182d6b9f4c6a" />
 ### Sources:
 ### <img width="1920" height="1080" alt="10" src="https://github.com/user-attachments/assets/a4767332-5af4-4aa7-b259-97f07a9ef469" />
+
+### Wireframe for new proposed webpage:
+### <img width="1920" height="1080" alt="10" src="https://media.discordapp.net/attachments/1323686087557779477/1459213042763170063/25.png?ex=6962758c&is=6961240c&hm=5e3ad5f66c21b702cbf1c783b9bf6be91a4ee24c277f22d569d54475cc590249&=&format=webp&quality=lossless&width=1383&height=778" />
+### <img width="1920" height="1080" alt="10" src="https://media.discordapp.net/attachments/1323686087557779477/1459213043400708106/26.png?ex=6962758c&is=6961240c&hm=cc388b67e7c479aeba5470c07796877edb491066cf9c02da7194340c647af6e6&=&format=webp&quality=lossless&width=1383&height=778" />
+### <img width="1920" height="1080" alt="10" src="https://media.discordapp.net/attachments/1323686087557779477/1459213044033913088/27.png?ex=6962758c&is=6961240c&hm=a82a219e75185eeaf891e9180ec5c3e2599a5aa05156278304a204d25ff88128&=&format=webp&quality=lossless&width=1383&height=778" />
+
+# Q3 Project Proposal Update Plan
+
+## Final Title
+TokkiNet: Hopping into NewJeans 
+
+## Description
+*TokkiNet: Hopping into NewJeans* is an online playground for those who want to wander and discover the world of NewJeans, from getting to know each member, to enjoying their bright songs. Aside from getting to know NewJeans, our website would like to get to know you more, based on your personality and interests through a quiz and a form.
+
+## Features
+- The **Homepage** welcomes the user to the website and includes a short description of the group's history.
+- The **About Us Page** provides information about the authors, and the motive behind the website. 
+- The **Who's Who Page** consists of the information of each member, which includes their background before joining the group, their personality, and positions. 
+- The **Quiz Page** is an interactive personality test quiz, wherein the user answers a set of questions and finds their member match.
+- The **Merch Page** is a collection of the different merches of the group, which includes the shopping links of each item.
+- The **Shows Page** shows the different variety shows of the group with a short description about them.
+
+## HTML Form
+We will use an HTML recommendation form on the website to gather the user's input to their nickname, bias, content preference, and current mood. The information entered will be saved on the computer using local storage and will be used to generate personalized NewJeans reccomendations (songs, music videos, performances, etc.) on the results and explanation pages, allowing the user to explore more into the group's content that best matches their interests.
+
+## Definition of Done
+The project is considered done if all planned pages and features are fully implemented well, match the wireframes and design concept, and work smoothly without any errors. All forms save and use data correctly, the content is clear and complete, and the site is interactive and fun. 
