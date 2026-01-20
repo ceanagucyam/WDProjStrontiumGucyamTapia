@@ -1,8 +1,6 @@
-// Get quiz data
 const data = JSON.parse(localStorage.getItem("tokkinetQuiz"));
 const container = document.getElementById("explanations");
 
-// Define explanations for each content type + mood + bias
 const explanationInfo = {
   song: {
     Nostalgic: (bias) => `Ditto has a soft, dreamy, and retro sound that allows listeners to revisit warm memories from the past.`,
@@ -21,7 +19,6 @@ const explanationInfo = {
   }
 };
 
-// Loop through each selected content type and add explanation
 data.content.forEach(type => {
   const explanation = explanationInfo[type][data.mood](data.bias);
   container.innerHTML += `<p>${explanation}</p>`;

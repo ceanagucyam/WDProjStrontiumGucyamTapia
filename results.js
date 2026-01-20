@@ -3,7 +3,6 @@ const data = JSON.parse(localStorage.getItem("tokkinetQuiz"));
 document.getElementById("greeting").textContent =
   `Hello, ${data.nickname}!`;
 
-// Recommendations based on both content type and mood
 const contentInfo = {
   song: {
     Nostalgic: {
@@ -60,9 +59,8 @@ const contentInfo = {
 
 const container = document.getElementById("recommendations");
 
-// Loop through selected content types and show recommendation based on mood
 data.content.forEach(type => {
-  const item = contentInfo[type][data.mood]; // pick based on mood
+  const item = contentInfo[type][data.mood];
   container.innerHTML += `
     <div class="card">
       <img src="${item.img}" alt="${item.title}">

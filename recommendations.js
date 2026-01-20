@@ -1,5 +1,3 @@
-// Handles quiz data and redirects to results page
-
 document.getElementById("quizForm").addEventListener("submit", function (e) {
   e.preventDefault();
 
