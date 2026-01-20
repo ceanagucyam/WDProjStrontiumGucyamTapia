@@ -1,0 +1,153 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* MAIN CONTAINER */
+body {
+  font-family: "Monaco", serif;
+  background: linear-gradient(#0060be, #e8f2fb);
+  padding: 20px;
+}
+
+.header-row { display: flex; align-items: center; }
+.logo { width: 110px; margin-right: 20px; }
+.site-title { font-size: 65px; }
+
+.page-wrapper {
+  background: white;
+  width: 92%;
+  margin: auto;
+  padding: 25px 40px;
+  border-radius: 40px;
+  box-shadow: 10px 10px 0 black;
+  animation: pageFade 0.7s ease;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo-box {
+  width: 90px;
+  height: 60px;
+  border: 3px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.site-header h1 {
+  font-size: 48px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+  margin: 20px 0;
+  padding: 12px 30px;
+  border: 3px solid black;
+  border-radius: 40px;
+  background: linear-gradient(#9be54d, white);
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 22px;
+  font-style: italic;
+  color: black;
+}
+
+.navbar a:hover {
+  color: white;
+}
+
+.navbar a.active {
+  text-decoration: none;
+}
+
+.content-box {
+  width: 85%;
+  min-height: 450px;
+  margin: 20px auto;
+  padding: 30px;
+  border: 7px solid black;
+  border-radius: 12px;
+  background: url("public/assets/pink-bg.jpg");
+  background-size: cover;
+  overflow-y: auto;
+}
+
+.content-box::-webkit-scrollbar {
+  display: none;
+}
+
+/*FORM STYLES*/
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: auto;
+}
+
+form p {
+  font-size: 20px;
+  color: #b7427e;
+}
+
+input[type="text"],
+select {
+  padding: 10px;
+  font-size: 16px;
+  border: 3px solid black;
+  border-radius: 8px;
+}
+
+label {
+  font-size: 18px;
+}
+
+.mood-options {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.link-btn {
+  margin: 25px auto 0;
+  padding: 12px 28px;
+  font-size: 20px;
+  border: 3px solid black;
+  border-radius: 14px;
+  background: linear-gradient(#9be54d, white);
+  cursor: pointer;
+}
+
+.link-btn:hover {
+  background: white;
+}
+
+body {
+    animation: fadeIn 0.6s ease;
+}
+
+.content-box {
+    animation: contentFade 0.9s ease;
+}
+
+@keyframes contentFade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
