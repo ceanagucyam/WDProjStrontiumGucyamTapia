@@ -1,0 +1,72 @@
+const data = JSON.parse(localStorage.getItem("tokkinetQuiz"));
+
+document.getElementById("greeting").textContent =
+  `Hello, ${data.nickname}!`;
+
+// Recommendations based on both content type and mood
+const contentInfo = {
+  song: {
+    Nostalgic: {
+      title: "Ditto",
+      img: "assets/images/song.jpg",
+      link: "https://open.spotify.com/track/3r8RuvgbX9s7ammBn07D3W?si=f06cb5cb02a14db6"
+    },
+    Energetic: {
+      title: "Hype Boy",
+      img: "assets/images/song.jpg",
+      link: "https://open.spotify.com/track/0a4MMyCrzT0En247IhqZbD?si=6834205492f740c6"
+    },
+    Chill: {
+      title: "Cool With You",
+      img: "assets/images/song.jpg",
+      link: "https://open.spotify.com/track/02wk5BttM0QL38ERjLPQJB?si=b756899bc7a848fd"
+    }
+  },
+  performance: {
+    Nostalgic: {
+      title: "NewJeans (뉴진스) 'Attention' Official MV (Performance ver.)",
+      img: "assets/images/performance.jpg",
+      link: "https://youtu.be/x8RIixqumUc?si=ORFfBrwA79FnMya1"
+    },
+    Energetic: {
+      title: "NewJeans (뉴진스) 'ETA' Official MV (Performance ver.)",
+      img: "assets/images/performance.jpg",
+      link: "https://youtu.be/s4Ow55AbdCg?si=mzp5DIXr214zUdwI"
+    },
+    Chill: {
+      title: "[뮤뱅 원테이크 4k] 뉴진스(NewJeans) 'Bubble Gum' Bonus Ver. @뮤직뱅크(Music Bank) 240614",
+      img: "assets/images/performance.jpg",
+      link: "https://youtu.be/90Jqld7le-k?si=Sw_6BKoIWqzNUfkr"
+    }
+  },
+  youtube: {
+    Nostalgic: {
+      title: "[Jeans’ ZINE] NewJeans Cafe ☕️",
+      img: "assets/images/youtube.jpg",
+      link: "https://youtu.be/HzTEsxk3PG4?si=Et1kzqk7l7ZX7M32"
+    },
+    Energetic: {
+      title: "[Making Jeans] NewJeans (뉴진스) 'Super Shy' MV Behind",
+      img: "assets/images/youtube.jpg",
+      link: "https://youtu.be/OHA7clGQ69A?si=ddbE2fbI9TQLAAzH"
+    },
+    Chill: {
+      title: "[NewZips] Pajama Party 🌃✨ EP.6ㅣNewJeans",
+      img: "assets/images/youtube.jpg",
+      link: "https://youtu.be/gxVxGSoj7Y0?si=buqa9wO8wtpGWjCo"
+    }
+  }
+};
+
+const container = document.getElementById("recommendations");
+
+// Loop through selected content types and show recommendation based on mood
+data.content.forEach(type => {
+  const item = contentInfo[type][data.mood]; // pick based on mood
+  container.innerHTML += `
+    <div class="card">
+      <img src="${item.img}" alt="${item.title}">
+      <a href="${item.link}" target="_blank">${item.title}</a>
+    </div>
+  `;
+});

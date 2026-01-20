@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TokkiNet | Recommendations</title>
+  <meta name="description" content="Get personalized NewJeans recommendations">
+  <meta name="author" content="Ceana Gucyam, Reeva Tapia">
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="stylesheet" href="css/recommendations.css">
+</head>
+<body>
+
+<div class="page-wrapper">
+
+<header class="site-header">
+  <div class="logo-box">LOGO</div>
+  <h1>Website Title</h1>
+</header>
+
+<nav class="navbar">
+  <a href="index.html">Home</a>
+  <a href="aboutus.html">About Us</a>
+  <a href="whoswho.html">Who’s Who</a>
+  <a href="quiz.html">Quiz</a>
+  <a href="merch.html">Merch</a>
+  <a href="shows.html">Shows</a>
+  <a class="active" href="#">Recommendations</a>
+</nav>
+
+<main class="content-box">
+  <form id="quizForm">
+
+    <p>Nickname:</p>
+    <input type="text" id="nickname" required>
+
+    <p>Bias</p>
+    <select id="bias" required>
+      <option value="">Select Bias</option>
+      <option value="Minji">Minji</option>
+      <option value="Hanni">Hanni</option>
+      <option value="Danielle">Danielle</option>
+      <option value="Haerin">Haerin</option>
+      <option value="Hyein">Hyein</option>
+    </select>
+
+    <p>Preferred Content:</p>
+    <label><input type="checkbox" value="song"> Songs</label>
+    <label><input type="checkbox" value="performance"> Performances</label>
+    <label><input type="checkbox" value="youtube"> YouTube Videos</label>
+
+    <p>Mood:</p>
+<div class="mood-options">
+  <label><input type="radio" name="mood" value="Nostalgic"> Nostalgic</label>
+  <label><input type="radio" name="mood" value="Energetic"> Energetic</label>
+  <label><input type="radio" name="mood" value="Chill"> Chill</label>
+</div>
+
+<button type="submit" class="link-btn">Get Recommendations</button>
+
+  </form>
+</main>
+
+<footer>
+  <p>YouTube &nbsp; Instagram &nbsp; X &nbsp; TikTok</p>
+  <p>© 2025 TokkiNet. All Rights Reserved.</p>
+  <p>Authors: Ceana Gucyam, Reeva Tapia</p>
+</footer>
+
+</div>
+
+<script src="recommendations.js"></script>
+</body>
+</html>
