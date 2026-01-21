@@ -21,5 +21,5 @@ const explanationInfo = {
 
 data.content.forEach(type => {
   const explanation = explanationInfo[type][data.mood](data.bias);
-  container.innerHTML += `<p>${explanation}</p>`;
+  container.innerHTML += `<div class="explanation-container"><p>${explanation}</p></div>`;
 });

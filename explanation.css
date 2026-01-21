@@ -63,7 +63,7 @@ body {
 }
 
 .navbar a.active {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* CONTENT BOX */
@@ -91,31 +91,32 @@ body {
   margin-bottom: 30px;
 }
 
-/* EXPLANATIONS GRID */
+/* EXPLANATIONS */
 #explanations {
+  max-width: 1000px;
+  margin: 0 auto 30px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-  margin-bottom: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
 }
 
-/* EXPLANATION CARD */
-.explanation-card {
+.explanation-container {
   border: 4px solid black;
   border-radius: 15px;
   background: white;
   padding: 20px;
   text-align: center;
+  box-shadow: 5px 5px 0 #b35e7a;
 }
 
-.explanation-card h3 {
+.explanation-containerh3 {
   font-size: 22px;
   text-align: center;
   color: #8632a5;
   margin-bottom: 10px;
 }
 
-.explanation-card p {
+.explanation-container p {
   font-size: 16px;
   text-align: center;
   color: #333;
@@ -139,34 +140,68 @@ body {
 }
 
 /* FOOTER */
-footer {
-  text-align: center;
-  margin-top: 25px;
-  font-size: 16px;
+.footer-links {
+    margin-top: 25px;
+    font-size: 22px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    color: black
+}
+
+.footer-links span {
+    margin-right: 30px;
+}
+
+.footer-links ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.footer-links li a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+
+.footer-links a:hover {
+    color: #0060be;
+}
+
+
+.footer-links {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer-center {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
 }
 
 /* ANIMATIONS */
-@keyframes pageFade {
-  from {
-    opacity: 0;
-    transform: translateY(12px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 @keyframes contentFade {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
