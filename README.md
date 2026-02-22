@@ -40,9 +40,9 @@
 ### <img width="1920" height="1080" alt="10" src="https://github.com/user-attachments/assets/a4767332-5af4-4aa7-b259-97f07a9ef469" />
 
 ### Wireframe for new proposed webpage:
-### <img width="1920" height="1080" alt="10" src="https://media.discordapp.net/attachments/1323686087557779477/1459213042763170063/25.png?ex=6962758c&is=6961240c&hm=5e3ad5f66c21b702cbf1c783b9bf6be91a4ee24c277f22d569d54475cc590249&=&format=webp&quality=lossless&width=1383&height=778" />
-### <img width="1920" height="1080" alt="10" src="https://media.discordapp.net/attachments/1323686087557779477/1459213043400708106/26.png?ex=6962758c&is=6961240c&hm=cc388b67e7c479aeba5470c07796877edb491066cf9c02da7194340c647af6e6&=&format=webp&quality=lossless&width=1383&height=778" />
-### <img width="1920" height="1080" alt="10" src="https://media.discordapp.net/attachments/1323686087557779477/1459213044033913088/27.png?ex=6962758c&is=6961240c&hm=a82a219e75185eeaf891e9180ec5c3e2599a5aa05156278304a204d25ff88128&=&format=webp&quality=lossless&width=1383&height=778" />
+### <img width="1920" height="1080" alt="10" src="https://github.com/ceanagucyam/WDProjStrontiumGucyamTapia/blob/main/public/assets/25.png?raw=true" />
+### <img width="1920" height="1080" alt="10" src="https://github.com/ceanagucyam/WDProjStrontiumGucyamTapia/blob/main/public/assets/26.png?raw=true" />
+### <img width="1920" height="1080" alt="10" src="https://github.com/ceanagucyam/WDProjStrontiumGucyamTapia/blob/main/public/assets/27.png?raw=true" />
 
 # Q3 Project Proposal Update Plan
 
