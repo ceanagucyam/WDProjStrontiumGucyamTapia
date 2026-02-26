@@ -33,7 +33,8 @@ body {
 }
 
 .site-title {
-    font-size: 65px;
+    font-size: clamp(28px, 6vw, 65px);
+    text-align: center;
     letter-spacing: 2px;
 }
 
@@ -64,7 +65,8 @@ body {
     border: 7px solid black;
     background: white;
     width: 100%;
-    height: 420px;
+    min-height: 300px;
+    height: auto;
     margin: 20px auto;
     padding: 30px;
 }
@@ -196,15 +198,22 @@ body {
     text-decoration: underline;
 }
 
-.footer-links {
-    margin-top: 25px;
-    margin-bottom: 30px;
-    font-size: 22px;
+.footer-links ul {
     display: flex;
-    gap: 30px;
-    text-align: center ;
-    align-items: center;
-    color: black
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+@media (max-width: 768px) {
+    .footer-links ul {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .footer-links li a {
+        font-size: 16px;
+    }
 }
 
 
@@ -249,5 +258,48 @@ body {
     }
     to {
         opacity: 1;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .header-row {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .logo {
+        width: 70px;
+        margin: 0;
+    }
+
+    .main-container {
+        width: 100%;
+        padding: 15px;
+        border-radius: 20px;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
+
+    .content-box h3,
+    .content-box h2 {
+        font-size: clamp(20px, 5vw, 32px);
+    }
+
+    .content-box p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    body {
+        padding: 10px;
     }
 }
