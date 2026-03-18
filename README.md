@@ -70,16 +70,16 @@ The project is considered done if all planned pages and features are fully imple
 
 ## Title: TokkiNet: Hopping Into NewJeans
 
-### Description:
+## Description:
 *TokkiNet: Hopping Into NewJeans* is an online and fun guide into NewJeans. It includes a short description of each member, their different songs and music videos, and more.
 
-### Who is this project for?
+## Who is this project for?
 This project is designed for users of all ages, most especially K-Pop fans, providing an engaging platform to disocover a new Girl K-Pop Group, Newjeans, and to explore more of their content in a fun way. This website is friendly for people who don't want to read too much information, and can even interact with it. It is designed for the ones who want to add new K-Pop songs to their music playlist, and enjoy listening to every second of the song. It is also for those who wants to collect cute K-Pop merch, and discover the amazing, wide variety of shows of NewJeans. If the user is bored of navigating the different content of NewJeans, they may interact with a quiz and a form. This interaction is for the ones who want to find out which NewJeans member match them the most, and can even get recommendations of their preferred content.
 
-### Why will they love this project?
+## Why will they love this project?
 They, especially K-Pop fans, will love this project because they are welcomed into a colorful, bright website filled with NewJeans content. They can get to know the members more, and discover their different songs and music videos. They can also interact with a quiz to find out which NewJeans member match their personality the most, and answer a form where they can get recommendations of their preferred content  based on their mood, etc. In those different ways, it will make their experience enjoyable and engaging!
 
-### Project Features
+## Project Features
 This project features: 
 
 1. Home - Users are welcomed with a bright and colorful message, with a short description of the history of NewJeans.
@@ -95,10 +95,10 @@ This project DOES NOT feature:
 2. Recent updates about the group after December 29, 2025.
 3. Real-time updates.
 
-### Design & Narrative
+## Design & Narrative
 CRUD was implemented on the Recommendations page. Its purpose is to allow users to manage their personalized recommendations using localStorage. When a user enters their nickname, bias, preferred content, and mood in the recommendations page, the data is saved in localStorage upon clicking the "Get Recommendations" button. This is the creation of data. After this, the website displays the generated recommendations, which can be viewed by the user at anytime by clicking the "List" button. This button will show a list of previously generated recommendations, which allows the user to view the stored data. To update the data, users can return to the input form by clicking the "Back" button, and can add their new preferences to generate a new set of recommendations. Once submitted, the new data adds to the existing data, updating the list of recommendations. To remove the data, each saved recommendation in the list includes a "Delete" button next to it. When clicked, the selected recommendation is now removed from the localStorage.
 
-### Wireframe
+## Wireframe
 ### <img width="1920" height="1080" alt="10" src="https://github.com/ceanagucyam/WDProjStrontiumGucyamTapia/blob/main/public/assets/new-wireframe-2.png?raw=true" />
 ### <img width="1920" height="1080" alt="10" src="https://github.com/ceanagucyam/WDProjStrontiumGucyamTapia/blob/main/public/assets/new-wireframe.png?raw=true" />
 
