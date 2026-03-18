@@ -71,7 +71,7 @@ The project is considered done if all planned pages and features are fully imple
 ## Title: TokkiNet: Hopping Into NewJeans
 
 ### Description:
-*TokkiNet: Hopping Into NewJeans* is an online playground for those who want to wander and discover the cool world of NewJeans, from getting to know each member, to enjoying their bright songs and music videos. Aside from getting to know NewJeans, our website would like to get to know you more, based on your personality and interests through a quiz and a form. Find out more on our website by navigating the different pages.
+*TokkiNet: Hopping Into NewJeans* is an online and fun guide into NewJeans. It includes a short description of each member, their different songs and music videos, and more.
 
 ### Who is this project for?
 This project is designed for users of all ages, most especially K-Pop fans, providing an engaging platform to disocover a new Girl K-Pop Group, Newjeans, and to explore more of their content in a fun way. This website is friendly for people who don't want to read too much information, and can even interact with it. It is designed for the ones who want to add new K-Pop songs to their music playlist, and enjoy listening to every second of the song. It is also for those who wants to collect cute K-Pop merch, and discover the amazing, wide variety of shows of NewJeans. If the user is bored of navigating the different content of NewJeans, they may interact with a quiz and a form. This interaction is for the ones who want to find out which NewJeans member match them the most, and can even get recommendations of their preferred content.
@@ -88,13 +88,15 @@ This project features:
 4. Quiz - This is page provides a fun, interactive quiz for users who want to find out which NewJeans member match their personality the most with unlimited tries.
 5. Merch - This page guides the user to the official merchandise of the K-Pop group, and can even add each product to their cart.
 6. Shows - This page features NewJeans' Variety Shows with descriptions and links to their YouTube playlists.
-7. Recommendations - This page features on option for users to get recommendations based on their preferred content such as songs, performances, and YouTube videos.
+7. Recommendations - This page features on option for users to get recommendations based on their preferred content such as songs, performances, and YouTube videos. A saved list of the recommendations is offered as well.
+
+This project DOES NOT feature:
+1. Advanced user account systems, where data is only stored locally and cannot be accessed in different devices.
+2. Recent updates about the group after December 29, 2025.
+3. Real-time updates.
 
 ### Design & Narrative
-Create: Users submit their nickname, bias, preferred content, and mood through the form. This is saved as a JSON object in a localStorage array.
-Read: The "List" link will add a pop-up to display the saved preferences.
-Update: Each saved entry will feature an "Edit" button with the existing data, allowing the users to modify their choices and "Save Changes."
-Delete: A "Remove" icon will be added to each saved item, allowing users to clear specific entries from their history.
+CRUD was implemented on the Recommendations page. Its purpose is to allow users to manage their personalized recommendations using localStorage. When a user enters their nickname, bias, preferred content, and mood in the recommendations page, the data is saved in localStorage upon clicking the "Get Recommendations" button. This is the creation of data. After this, the website displays the generated recommendations, which can be viewed by the user at anytime by clicking the "List" button. This button will show a list of previously generated recommendations, which allows the user to view the stored data. To update the data, users can return to the input form by clicking the "Back" button, and can add their new preferences to generate a new set of recommendations. Once submitted, the new data adds to the existing data, updating the list of recommendations. To remove the data, each saved recommendation in the list includes a "Delete" button next to it. When clicked, the selected recommendation is now removed from the localStorage.
 
 ### Wireframe
 ### <img width="1920" height="1080" alt="10" src="https://github.com/ceanagucyam/WDProjStrontiumGucyamTapia/blob/main/public/assets/new-wireframe-2.png?raw=true" />
