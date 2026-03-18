@@ -75,3 +75,7 @@ The project is considered done if all planned pages and features are fully imple
 
 ### Who is this project for?
 This project is designed for users of all ages providing an engaging platform to disocover a new Girl K-Pop Group, Newjeans, and to explore more of their content in a fun way. It is designed for the ones who want to add new K-Pop songs to their music playlist, and enjoy listening to every second of the song. It is also for people who wants to collect cute K-Pop merch, and 
+
+### Wireframe
+### <img width="1920" height="1080" alt="10" src="https://github.com/ceanagucyam/WDProjStrontiumGucyamTapia/blob/main/public/assets/28.png?raw=true" />
+### <img width="1920" height="1080" alt="10" src="https://github.com/ceanagucyam/WDProjStrontiumGucyamTapia/blob/main/public/assets/29.png?raw=true" />
