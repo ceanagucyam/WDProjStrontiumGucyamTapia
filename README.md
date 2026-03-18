@@ -101,3 +101,5 @@ Delete: A "Remove" icon will be added to each saved item, allowing users to clea
 ### <img width="1920" height="1080" alt="10" src="https://github.com/ceanagucyam/WDProjStrontiumGucyamTapia/blob/main/public/assets/29.png?raw=true" />
 ### <img width="1920" height="1080" alt="10" src="https://github.com/ceanagucyam/WDProjStrontiumGucyamTapia/blob/main/public/assets/30.png?raw=true" />
 ### <img width="1920" height="1080" alt="10" src="https://github.com/ceanagucyam/WDProjStrontiumGucyamTapia/blob/main/public/assets/31.png?raw=true" />
+
+## Submitted by Rachelle Ceana Angela E. Gucyam & Reeva Emerille F. Tapia on March 18, 2026 to Sir Roy in partial fulfillment of the requirements in CS3 of DOST-PSHS-MC
