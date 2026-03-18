@@ -85,3 +85,5 @@ Delete: A "Remove" icon will be added to each saved item, allowing users to clea
 ### Wireframe
 ### <img width="1920" height="1080" alt="10" src="https://github.com/ceanagucyam/WDProjStrontiumGucyamTapia/blob/main/public/assets/28.png?raw=true" />
 ### <img width="1920" height="1080" alt="10" src="https://github.com/ceanagucyam/WDProjStrontiumGucyamTapia/blob/main/public/assets/29.png?raw=true" />
+### <img width="1920" height="1080" alt="10" src="https://github.com/ceanagucyam/WDProjStrontiumGucyamTapia/blob/main/public/assets/30.png?raw=true" />
+### <img width="1920" height="1080" alt="10" src="https://github.com/ceanagucyam/WDProjStrontiumGucyamTapia/blob/main/public/assets/31.png?raw=true" />
