@@ -65,3 +65,13 @@ We will use an HTML recommendation form on the website to gather the user's inpu
 
 ## Definition of Done
 The project is considered done if all planned pages and features are fully implemented well, match the wireframes and design concept, and work smoothly without any errors. All forms save and use data correctly, the content is clear and complete, and the site is interactive and fun. 
+
+# Q4 Project Proposal Update Plan
+
+## Title: TokkiNet: Hopping Into NewJeans
+
+### Description:
+*TokkiNet: Hopping Into NewJeans* is an online playground for those who want to wander and discover the cool world of NewJeans, from getting to know each member, to enjoying their bright songs and music videos. Aside from getting to know NewJeans, our website would like to get to know you more, based on your personality and interests through a quiz and a form. Find out more on our website by navigating the different pages.
+
+### Who is this project for?
+This project is designed for users of all ages providing an engaging platform to disocover a new Girl K-Pop Group, Newjeans, and to explore more of their content in a fun way. It is designed for the ones who want to add new K-Pop songs to their music playlist, and enjoy listening to every second of the song. It is also for people who wants to collect cute K-Pop merch, and 
