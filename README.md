@@ -74,7 +74,21 @@ The project is considered done if all planned pages and features are fully imple
 *TokkiNet: Hopping Into NewJeans* is an online playground for those who want to wander and discover the cool world of NewJeans, from getting to know each member, to enjoying their bright songs and music videos. Aside from getting to know NewJeans, our website would like to get to know you more, based on your personality and interests through a quiz and a form. Find out more on our website by navigating the different pages.
 
 ### Who is this project for?
-This project is designed for users of all ages providing an engaging platform to disocover a new Girl K-Pop Group, Newjeans, and to explore more of their content in a fun way. It is designed for the ones who want to add new K-Pop songs to their music playlist, and enjoy listening to every second of the song. It is also for people who wants to collect cute K-Pop merch, and 
+This project is designed for users of all ages, most especially K-Pop fans, providing an engaging platform to disocover a new Girl K-Pop Group, Newjeans, and to explore more of their content in a fun way. This website is friendly for people who don't want to read too much information, and can even interact with it. It is designed for the ones who want to add new K-Pop songs to their music playlist, and enjoy listening to every second of the song. It is also for those who wants to collect cute K-Pop merch, and discover the amazing, wide variety of shows of NewJeans. If the user is bored of navigating the different content of NewJeans, they may interact with a quiz and a form. This interaction is for the ones who want to find out which NewJeans member match them the most, and can even get recommendations of their preferred content.
+
+### Why will they love this project?
+They, especially K-Pop fans, will love this project because they are welcomed into a colorful, bright website filled with NewJeans content. They can get to know the members more, and discover their different songs and music videos. They can also interact with a quiz to find out which NewJeans member match their personality the most, and answer a form where they can get recommendations of their preferred content  based on their mood, etc. In those different ways, it will make their experience enjoyable and engaging!
+
+### Project Features
+This project features: 
+
+1. Home - Users are welcomed with a bright and colorful message, with a short description of the history of NewJeans.
+2. About Us - This page gives the users information about the author, and the reason as to why the website was made.
+3. Who's Who - This page introduces users to the different NewJeans members, providing a short background of each member.
+4. Quiz - This is page provides a fun, interactive quiz for users who want to find out which NewJeans member match their personality the most with unlimited tries.
+5. Merch - This page guides the user to the official merchandise of the K-Pop group, and can even add each product to their cart.
+6. Shows - This page features NewJeans' Variety Shows with descriptions and links to their YouTube playlists.
+7. Recommendations - This page features on option for users to get recommendations based on their preferred content such as songs, performances, and YouTube videos.
 
 ### Design & Narrative
 Create: Users submit their nickname, bias, preferred content, and mood through the form. This is saved as a JSON object in a localStorage array.
