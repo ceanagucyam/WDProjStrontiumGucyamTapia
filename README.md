@@ -66,7 +66,7 @@ We will use an HTML recommendation form on the website to gather the user's inpu
 ## Definition of Done
 The project is considered done if all planned pages and features are fully implemented well, match the wireframes and design concept, and work smoothly without any errors. All forms save and use data correctly, the content is clear and complete, and the site is interactive and fun. 
 
-# Q4 Project Proposal Update Plan
+# Q4 Project Proposal Update Plan: FINAL MODIFICATION PROPOSAL
 
 ## Title: TokkiNet: Hopping Into NewJeans
 
@@ -75,6 +75,12 @@ The project is considered done if all planned pages and features are fully imple
 
 ### Who is this project for?
 This project is designed for users of all ages providing an engaging platform to disocover a new Girl K-Pop Group, Newjeans, and to explore more of their content in a fun way. It is designed for the ones who want to add new K-Pop songs to their music playlist, and enjoy listening to every second of the song. It is also for people who wants to collect cute K-Pop merch, and 
+
+### Design & Narrative
+Create: Users submit their nickname, bias, preferred content, and mood through the form. This is saved as a JSON object in a localStorage array.
+Read: The "List" link will add a pop-up to display the saved preferences.
+Update: Each saved entry will feature an "Edit" button with the existing data, allowing the users to modify their choices and "Save Changes."
+Delete: A "Remove" icon will be added to each saved item, allowing users to clear specific entries from their history.
 
 ### Wireframe
 ### <img width="1920" height="1080" alt="10" src="https://github.com/ceanagucyam/WDProjStrontiumGucyamTapia/blob/main/public/assets/28.png?raw=true" />
