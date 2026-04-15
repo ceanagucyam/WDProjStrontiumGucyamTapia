@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TokkiNet | Your Recommendations</title>
+  <link rel="stylesheet" href="recommendations.css">
+  <style>
+    /* Specific styles for the results list */
+    .recommendation-item {
+      background: rgba(255, 255, 255, 0.8);
+      border: 2px solid black;
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .delete-btn {
+      background: #ff4d4d;
+      color: white;
+      border: 2px solid black;
+      padding: 5px 10px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .btn-row {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+
+<div class="page-wrapper">
+    <div class="header-row">
+        <img class="logo" src="public/assets/favicon.png" alt="Logo">
+        <div class="site-title">Your Saved List</div>
+    </div>
+
+    <main class="content-box">
+      <div id="resultsList">
+        </div>
+
+      <div class="btn-row">
+        <button onclick="location.href='recommendations.html'" class="link-btn">Back (Update)</button>
+      </div>
+    </main>
+
+    <footer>
+        <div class="footer-center">© 2025 TokkiNet. Authors: Ceana Gucyam, Reeva Tapia</div>
+    </footer>
+</div>
+
+<script src="delete.js"></script>
+</body>
+</html>
