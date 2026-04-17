@@ -10,18 +10,20 @@
 body {
     font-family: "Monaco", serif;
     background: linear-gradient(#0060be, #e8f2fb);
+    background-position: fixed;
     background-attachment: fixed;
     padding: 20px;
 }
-
 
 .main-container {
     background: white;
     width: 92%;
     margin: auto;
-    padding: 25px 40px;
+    padding: 15px 30px;
     border-radius: 40px;
     box-shadow: 10px 10px 0px black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .header-row {
@@ -53,35 +55,45 @@ body {
 }
 
 .nav-buttons a {
-    text-decoration: none;
     color: black;
+    text-decoration: none;
     font-style: italic;
-    font-size: clamp(14px, 3vw, 20px);
+    font-size: 22px;
 }
 
 .nav-buttons a:hover {
   color: white;
 }
 
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-.grid-3 {
-    flex-wrap: wrap;
-}
-
 .content-box {
-    border: 7px solid black;
-    background: white;
-    width: 100%;
-    min-height: 300px;
-    height: auto;
-    margin: 20px auto;
-    padding: 30px;
+    width: 85%;
+    min-height: 350px;
+    border: 5px solid rgb(0, 0, 0);
+    background: url("public/assets/pink-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 9.5px;
+    margin: 10px auto;
+
+    padding: 20px;
+    box-sizing: border-box;
+
+    overflow-y: auto;
 }
+
+
+.content-box h3 {
+    text-align: center;
+    color:#3c5dac;
+    font-size: 40px;
+    
+}
+
+.content-box p {
+    text-align: center;
+    color:#b7427e;
+    font-size: 20px;
+}   
 
 .grid-3 {
     display: flex;
@@ -103,49 +115,10 @@ img {
     margin-bottom: 10px;
 }
 
-
-.nav-buttons a {
-    color: black;
-    text-decoration: none;
-    font-style: italic;
-    font-size: 22px;
-}
-
-.nav-buttons a:hover {
-    color: white;
-}
-
-.content-box {
-    width: 85%;
-    min-height: 450px;
-    border: 5px solid rgb(0, 0, 0);
-    border-radius: 12px;
-    margin: 20px auto;
-
-    padding: 30px;
-    box-sizing: border-box;
-
-    overflow-y: auto;
-    background: white;
-}
-
 .content-box::-webkit-scrollbar {
     display: none;
 }
 
-.content-box h3 {
-    text-align: center;
-    color: #8632a5;
-    font-size: 40px;
-    
-}
-
-.content-box p {
-    text-align: center;
-    color: #000000;
-    font-size: 20px;
-    
-}
 
 /* ABOUT PROFILES */
 .about-profiles {
@@ -164,6 +137,7 @@ img {
 .about-author img {
     width: 230px;
     height: 230px;
+    align-items: center;
 }
 
 .about-caption {

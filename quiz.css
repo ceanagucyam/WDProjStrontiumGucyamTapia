@@ -5,64 +5,113 @@
 body {
     font-family: "Monaco", serif;
     background: linear-gradient(#0060be, #e8f2fb);
+    background-position: fixed;
+    background-attachment: fixed;
     padding: 20px;
-    cursor: url("public/assets/cursor.png"), pointer;
 }
 
-.main-container{
-    background:white;
-    max-width:1100px;
-    width:100%;
-    margin:auto;
-    padding:25px 40px;
-    border-radius:40px;
-    box-shadow:10px 10px 0 black;
-    animation:pageFade 0.7s ease;
+.main-container {
+    background: white;
+    width: 92%;
+    margin: auto;
+    padding: 15px 30px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 0px black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-.header-row { display: flex; align-items: center; }
-.logo { width: 110px; margin-right: 20px; }
-.site-title { font-size: clamp(28px, 6vw, 65px);
-    text-align: center; }
-
-.nav-buttons{
-    display:flex;
-    justify-content:center;
-    flex-wrap:wrap;
-    gap:14px;
-    margin:20px auto;
-    padding:14px 20px;
-
-    max-width:800px;
-    width:100%;
-
-    background:linear-gradient(#9be54d,white);
-    border:3px solid black;
-    border-radius:30px;
+.header-row {
+    display: flex;
+    align-items: center;
 }
 
-.nav-buttons a{
-    text-decoration:none;
-    color:black;
-    font-style:italic;
-    font-size:clamp(15px,3vw,22px);
+.logo {
+    width: 110px;
+    margin-right: 20px;
 }
 
-.nav-buttons a:hover{
-    color:white;
+.site-title {
+    font-size: clamp(28px, 6vw, 65px);
+    text-align: center;
+    letter-spacing: 2px;
 }
 
-/* CONTENT BOX */
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 20px 0;
+    background: linear-gradient(#9be54d, white);
+    padding: 12px;
+    border: 3px solid black;
+    border-radius: 25px;
+}
+
+.nav-buttons a {
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 22px;
+}
+
+.nav-buttons a:hover {
+  color: white;
+}
+
 .content-box {
     width: 85%;
-    min-height: 450px;
-    border: 7px solid black;
-    border-radius: 12px;
-    margin: 20px auto;
-    padding: 30px;
+    min-height: 745px;
+    border: 5px solid rgb(0, 0, 0);
     background: url("public/assets/pink-bg.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 9.5px;
+    margin: 10px auto;
+
+    padding: 20px;
+    box-sizing: border-box;
+
     overflow-y: auto;
+}
+
+
+.content-box h3 {
+    text-align: center;
+    color:#3c5dac;
+    font-size: 40px;
+    
+}
+
+.content-box p {
+    text-align: center;
+    color:#b7427e;
+    font-size: 20px;
+}   
+
+.grid-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.grid-item {
+    text-align: center;
+    font-size: 26px;
+}
+
+.placeholder-box {
+    width: 200px;
+    height: 150px;
+    background: #e4e4e4;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.content-box::-webkit-scrollbar {
+    display: none;
 }
 
 .page { display: none; }

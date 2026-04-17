@@ -6,77 +6,116 @@
 }
 
 /* BODY */
-body{
-  font-family:"Monaco", serif;
-  background:linear-gradient(#0060be,#e8f2fb);
-  padding:10px;
-  animation:fadeIn 0.6s ease;
+body {
+    font-family: "Monaco", serif;
+    background: linear-gradient(#0060be, #e8f2fb);
+    background-position: fixed;
+    background-attachment: fixed;
+    padding: 20px;
 }
 
-/* PAGE WRAPPER */
-.page-wrapper{
-  background:white;
-  max-width:1100px;
-  margin:auto;
-  padding:20px;
-  border-radius:30px;
-  box-shadow:10px 10px 0 black;
+.main-container {
+    background: white;
+    width: 92%;
+    margin: auto;
+    padding: 15px 30px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 0px black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-/* HEADER */
-.header-row{
-  display:flex;
-  align-items:center;
-  gap:15px;
-  flex-wrap:wrap;
-  justify-content:center;
-  text-align:center;
+.header-row {
+    display: flex;
+    align-items: center;
 }
 
-.logo{
-  width:80px;
+.logo {
+    width: 110px;
+    margin-right: 20px;
 }
 
-.site-title{
-  font-size:clamp(28px,6vw,60px);
+.site-title {
+    font-size: clamp(28px, 6vw, 65px);
+    text-align: center;
+    letter-spacing: 2px;
 }
 
-/* NAVBAR (FIXED) */
-.navbar{
-  display:flex;
-  justify-content:center;
-  flex-wrap:wrap;
-  gap:12px;
-  margin:20px 0;
-  padding:12px;
-  border:3px solid black;
-  border-radius:30px;
-  background:linear-gradient(#9be54d,white);
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 20px 0;
+    background: linear-gradient(#9be54d, white);
+    padding: 12px;
+    border: 3px solid black;
+    border-radius: 25px;
 }
 
-.navbar a{
-  text-decoration:none;
-  font-size:clamp(14px,3vw,20px);
-  font-style:italic;
-  color:black;
+.nav-buttons a {
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 22px;
 }
 
-.navbar a:hover{
-  color:white;
+.nav-buttons a:hover {
+  color: white;
 }
 
-/* CONTENT BOX (FIXED) */
-.content-box{
-  width:100%;
-  max-width:700px;
-  min-height:450px;
-  margin:20px auto;
-  padding:20px;
-  border:7px solid black;
-  border-radius:12px;
-  background:url("public/assets/pink-bg.jpg");
-  background-size:cover;
-  animation:contentFade 0.9s ease;
+.content-box {
+    width: 85%;
+    min-height: 745px;
+    border: 5px solid rgb(0, 0, 0);
+    background: url("public/assets/pink-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 9.5px;
+    margin: 10px auto;
+
+    padding: 20px;
+    box-sizing: border-box;
+
+    overflow-y: auto;
+}
+
+
+.content-box h3 {
+    text-align: center;
+    color:#3c5dac;
+    font-size: 40px;
+    
+}
+
+.content-box p {
+    text-align: center;
+    color:#b7427e;
+    font-size: 20px;
+}   
+
+.grid-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.grid-item {
+    text-align: center;
+    font-size: 26px;
+}
+
+.placeholder-box {
+    width: 200px;
+    height: 150px;
+    background: #e4e4e4;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.content-box::-webkit-scrollbar {
+    display: none;
 }
 
 /* FORM */
@@ -131,38 +170,43 @@ label{
 }
 
 /* FOOTER (CLEANED – NO DUPLICATES) */
-.footer-links{
-  text-align:center;
-  margin-bottom:25px;
+.footer-links {
+    text-align: center;
+    margin-bottom: 30px;
 }
 
-.footer-links ul{
-  list-style:none;
-  display:flex;
-  flex-wrap:wrap;
-  justify-content:center;
-  gap:12px;
-  padding:0;
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
-.footer-links a{
-  text-decoration:none;
-  color:black;
-  font-weight:bold;
+.footer-links li a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
 }
 
-.footer-links a:hover{
-  color:#0060be;
+.footer-links a:hover {
+    color: #0060be;
 }
 
-.footer-center{
-  text-align:center;
-  font-size:14px;
-  color:#888;
+.footer-center {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #888;
 }
 
 /* ANIMATIONS */
-@keyframes contentFade{
-  from{opacity:0;}
-  to{opacity:1;}
+@keyframes contentFade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
