@@ -6,9 +6,11 @@ document.getElementById("quizForm").addEventListener("submit", function (e) {
   const content = Array.from(document.querySelectorAll('input[type="checkbox"]:checked')).map(c => c.value);
   const mood = document.querySelector('input[name="mood"]:checked')?.value || "Neutral";
 
-  // Create new entry object
+  const quizData = { nickname, bias, content, mood };
+  localStorage.setItem("tokkinetQuiz", JSON.stringify(quizData));
+
   const newEntry = {
-    id: Date.now(), // Unique ID for deleting
+    id: Date.now(),
     nickname,
     bias,
     content,
@@ -16,13 +18,13 @@ document.getElementById("quizForm").addEventListener("submit", function (e) {
     date: new Date().toLocaleDateString()
   };
 
-  // Get existing list or create empty array
-  const existingEntries = JSON.parse(localStorage.getItem("tokkinetList")) || [];
-  
-  // Push new entry (CREATE)
+  let existingEntries = JSON.parse(localStorage.getItem("tokkinetList")) || [];
+
   existingEntries.push(newEntry);
+
   localStorage.setItem("tokkinetList", JSON.stringify(existingEntries));
 
-  // Redirect to list view
-  window.location.href = "delete.html";
+  console.log("Saved List:", existingEntries); // 🔍 DEBUG
+
+  window.location.href = "results.html";
 });

@@ -323,6 +323,13 @@ body {
     margin-top: 10px;
 }
 
+.btn-row {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
 /* ANIMATIONS */
 .content-box {
     animation: contentFade 0.9s ease;
