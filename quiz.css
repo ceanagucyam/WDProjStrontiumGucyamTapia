@@ -214,6 +214,7 @@ p {
 }
 
 .footer-links li a {
+    font-weight: bold;
     text-decoration: none;
     justify-content: center;
     color: black;
@@ -228,6 +229,12 @@ p {
     text-align: center;
     font-size: 0.9rem;
     color: #888;
+}
+
+.footer-left {
+    text-align: left;
+    font-size: 0.9rem;
+    color: #000000;
 }
 
 /* ANIMATIONS */

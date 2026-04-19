@@ -207,6 +207,12 @@ body {
     font-weight: bold;
 }
 
+.footer-left {
+    text-align: left;
+    font-size: 0.9rem;
+    color: #000000;
+}
+
 /* ANIMATIONS */
 .main-container {
     animation: pageFade 0.7s ease;
