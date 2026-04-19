@@ -249,6 +249,12 @@ body {
     color: #888;
 }
 
+.footer-left {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #000000;
+}
+
 /* ANIMATIONS */
 .content-box {
     animation: contentFade 0.9s ease;

@@ -1,6 +1,7 @@
-const data = JSON.parse(localStorage.getItem("tokkinetQuiz"));
-const container = document.getElementById("explanations");
+const data = JSON.parse(localStorage.getItem("tokkinetQuiz")); // Retrieve quiz data from localStorage
+const container = document.getElementById("explanations"); //get the container element to display explanations
 
+// explanations info
 const explanationInfo = {
   song: {
     Nostalgic: (bias) => `Ditto has a soft, dreamy, and retro sound that allows listeners to revisit warm memories from the past.`,
@@ -19,6 +20,7 @@ const explanationInfo = {
   }
 };
 
+// generate explanations for each category based on the quiz data
 data.content.forEach(type => {
   const explanation = explanationInfo[type][data.mood](data.bias);
   container.innerHTML += `<div class="explanation-container"><p>${explanation}</p></div>`;

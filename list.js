@@ -1,5 +1,6 @@
 console.log("delete.js loaded");
 
+// function to display recommendations
 function displayRecommendations() {
   const listContainer = document.getElementById("resultsList");
 
@@ -8,6 +9,7 @@ function displayRecommendations() {
     return;
   }
 
+// load entries from localStorage
   const entries = JSON.parse(localStorage.getItem("tokkinetList")) || [];
 
   console.log("Loaded entries:", entries);
@@ -16,7 +18,7 @@ function displayRecommendations() {
     listContainer.innerHTML = "<p style='text-align:center;'>No recommendations saved yet!</p>";
     return;
   }
-
+// content informaation for the links to be displayed
   const contentInfo = {
     song: {
       Nostalgic: { title: "Ditto", link: "https://open.spotify.com/track/3r8RuvgbX9s7ammBn07D3W" },
@@ -35,6 +37,7 @@ function displayRecommendations() {
     }
   };
 
+// generate HTML for each entry
   listContainer.innerHTML = entries.map(entry => {
 
     const typesHTML = entry.content.map(type => {
@@ -42,7 +45,7 @@ function displayRecommendations() {
 
       if (!item) return type;
       
-      const labelMap = {
+      const labelMap = { // mapping content types to user-friendly labels
         song: "Song",
         performance: "Performance",
         youtube: "YouTube"
@@ -53,7 +56,7 @@ function displayRecommendations() {
       return `<a href="${item.link}" target="_blank">${label}</a>`;
     }).join(", ");
 
-
+// return the HTML for each entry with a delete button
     return `
       <div class="recommendation-item">
         <div>
@@ -67,6 +70,7 @@ function displayRecommendations() {
   }).join('');
 }
 
+//delete function to remove an entry by id
 function deleteEntry(id) {
   let entries = JSON.parse(localStorage.getItem("tokkinetList")) || [];
   entries = entries.filter(entry => entry.id !== id);

@@ -1,8 +1,10 @@
-  const data = JSON.parse(localStorage.getItem("tokkinetQuiz"));
+  const data = JSON.parse(localStorage.getItem("tokkinetQuiz")); // Retrieve quiz data from localStorage
 
+  // set greeting with user's entered nickname
   document.getElementById("greeting").textContent =
     `Hello, ${data.nickname}!`;
 
+  //define content information for each recommendation type and mood
   const contentInfo = {
     song: {
       Nostalgic: {
@@ -57,8 +59,9 @@
     }
   };
 
-  const container = document.getElementById("recommendations");
+  const container = document.getElementById("recommendations"); //get the container element to display recommendations
 
+  // generate recommendations for each category based on the quiz data
   data.content.forEach(type => {
     const item = contentInfo[type][data.mood];
     container.innerHTML += `
